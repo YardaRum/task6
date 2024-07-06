@@ -41,20 +41,19 @@ public class Main {
         String name1 = scan.next();
         System.out.println("Введите возраст первого пользователя");
         int age1 = scan.nextInt();
-        User user1 = new User(name1,age1);
+        User user1 = new User(name1, age1);
         String str1 = user1.toString();
 
         System.out.println("Введите имя второго пользователя");
         String name2 = scan.next();
         System.out.println("Введите возраст второго пользователя");
         int age2 = scan.nextInt();
-        User user2 = new User(name2,age2);
+        User user2 = new User(name2, age2);
         String str2 = user2.toString();
 
         if (age2 < age1) {
             System.out.println(str2);
-        }
-        else {
+        } else {
             System.out.println(str1);
         }
     }
