@@ -3,7 +3,6 @@ import java.util.Scanner;
 class User {
     private String name;
     private int age;
-    static String stringNameAge;
 
     public String getName() {
         return name;
@@ -27,8 +26,7 @@ class User {
     }
 
     public String toString() {
-        stringNameAge = name + ", возраст " + age + " лет";
-        return stringNameAge;
+        return name + ", возраст " + age + " лет";
     }
 
 }
